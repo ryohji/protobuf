@@ -17,5 +17,5 @@ RUN cd /tmp/protobuf-3.5.1.1\
  && ldconfig\
  && rm -r /tmp/protobuf-3.5.1.1
 
-RUN apt-get remove zip unzip\
+RUN apt-get remove -y zip unzip\
  && apt-get clean
